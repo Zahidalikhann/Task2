@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Student name"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:id="@+id/secondname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Class"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:id="@+id/thirdname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Student ID"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Send" />
+    <Button
+        android:id="@+id/retrieve"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Show Data"
+        android:onClick="Show"/>
+
+
+</LinearLayout>
